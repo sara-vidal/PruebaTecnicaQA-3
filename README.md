@@ -18,8 +18,8 @@ separarlo en archivos como quieras) y los resultados de salida de los puntos ant
 considerada
 
 ## Prerequisites
-* Java version: 16.0.2
-* Apache Maven version: 3.8.6
+* Java version: 1.8
+* Apache Maven version: 3.8.1
 
 ## Setup
 To run this project for the first time, execute in root directory:
