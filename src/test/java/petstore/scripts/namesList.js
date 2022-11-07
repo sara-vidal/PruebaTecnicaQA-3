@@ -1,9 +1,9 @@
-/* Creates a new Names object from "Names" java class with
+/* Creates a new Pets object from "Pets" java class with
  * the petsList information and returns the result of the
  * method countNames
  */
 function fn(data){
-    var Names = Java.type('petstore.java.Names');
-    var n = new Names(data);
-    return n.countNames();
+    var Pets = Java.type('petstore.java.Pets');
+    var p = new Pets(data);
+    return p.countNames();
 }

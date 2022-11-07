@@ -13,11 +13,9 @@ Feature: Create a new user and retrieve their information
     Then status 200
 
     * def username = user.username
-
     Given path 'user',username
     And header Accept = 'application/json'
     When method get
     Then status 200
-
     # Result:
     * print response
